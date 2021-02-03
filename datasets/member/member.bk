@@ -1,0 +1,3 @@
+member(a,f(a,*))
+member(b,f(b,*))
+member(c,f(c,*))

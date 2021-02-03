@@ -1,0 +1,3 @@
+delete(a,f(a,*),*)
+delete(b,f(b,*),*)
+delete(c,f(c,*),*)
