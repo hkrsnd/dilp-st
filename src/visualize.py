@@ -85,7 +85,7 @@ class Visualize():
 
         # We want to show all ticks...
         ax.set_xticks(np.arange(len(plot_mat[0])))
-        ax.set_yticks(np.arange(len(at_list) + 2))
+        ax.set_yticks(np.arange(len(at_list) + 1))
         y_ticks = ['v_' + str(i)
             for i in range(len(at_list))] + ['diff']
         ######           for i in range(len(at_list))] + ['class', 'diff']
